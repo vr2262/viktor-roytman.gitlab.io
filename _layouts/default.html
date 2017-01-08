@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <meta name="description" content="{{ site.title }} : {{ site.description }}">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | replace_first: 'http', 'https' }}">
+
+    <title>{{ site.title }}</title>
+    <script>
+        if ((window.location.host !== '127.0.0.1:4000') && (window.location.protocol != 'https:')) {
+	    window.location = window.location.toString().replace(/^http:/, "https:");
+	}
+        if ((window.location.host === 'viktor-roytman.gitlab.io') ||
+	    (window.location.host === 'viktorroytman.com')) {
+	    window.location = "https://www.viktorroytman.com/";
+	}
+    </script>
+  </head>
 
   <body>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+	  <a href="https://www.viktorroytman.com/"><h1 id="project_title">{{ site.title }}</h1></a>
+        </header>
     </div>
 
-    {% include footer.html %}
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+	<p class="copyright">View this site's source on <a href="https://github.com/vr2262/viktor-roytman.gitlab.io">GitHub</a>. Built using the <a href="https://github.com/pages-themes/slate">Slate</a> theme.</p>
+      </footer>
+    </div>
 
   </body>
-
 </html>
