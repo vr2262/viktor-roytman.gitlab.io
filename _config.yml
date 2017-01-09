@@ -1,8 +1,8 @@
 # Site settings
 theme: jekyll-theme-slate
-title: title tbd
+title: Eh, this site could be worse.
 description: >
-  description tbd
+  Viktor's unexplained website.
 url: "/" # the base hostname & protocol for your site
 repository: vr2262/viktor-roytman.gitlab.io
 
