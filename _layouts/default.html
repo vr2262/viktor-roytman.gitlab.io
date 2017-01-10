@@ -12,12 +12,10 @@
 
     <title>{{ site.title }}</title>
     <script>
-        if ((window.location.host !== '127.0.0.1:4000') && (window.location.protocol != 'https:')) {
-	    window.location = window.location.toString().replace(/^http:/, "https:");
-	}
         if ((window.location.host === 'viktor-roytman.gitlab.io') ||
-	    (window.location.host === 'viktorroytman.com')) {
-	    window.location = "https://www.viktorroytman.com/";
+	    (window.location.host === 'viktorroytman.com') ||
+	    ((window.location.host !== '127.0.0.1:4000') && (window.location.protocol != 'https:'))) {
+	    window.location.replace("https://www.viktorroytman.com/");
 	}
     </script>
   </head>
