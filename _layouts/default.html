@@ -8,14 +8,14 @@
     <meta name="description" content="{{ site.title }} : {{ site.description }}">
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | replace_first: 'http', 'https' }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
     <title>{{ site.title }}</title>
     <script>
         if ((window.location.host === 'viktor-roytman.gitlab.io') ||
 	    (window.location.host === 'viktorroytman.com') ||
 	    ((window.location.host !== '127.0.0.1:4000') && (window.location.protocol != 'https:'))) {
-	    window.location.replace("https://www.viktorroytman.com/");
+	  window.location.replace("{{ site.url }}");
 	}
     </script>
   </head>
@@ -25,7 +25,7 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-	  <a href="https://www.viktorroytman.com/"><h1 id="project_title">{{ site.title }}</h1></a>
+	  <a href="{{ site.url }}"><h1 id="project_title">{{ site.title }}</h1></a>
         </header>
     </div>
 

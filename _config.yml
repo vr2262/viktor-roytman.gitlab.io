@@ -3,7 +3,8 @@ theme: jekyll-theme-slate
 title: Eh, this site could be worse.
 description: >
   Viktor's unexplained website.
-url: "/" # the base hostname & protocol for your site
+permalink: pretty
+url: https://viktorroytman.com/
 repository: vr2262/viktor-roytman.gitlab.io
 
 # Build settings
