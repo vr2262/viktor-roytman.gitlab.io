@@ -138,7 +138,7 @@ right, does it?
 [1]: https://en.wikipedia.org/wiki/HTTPS
 [2]: https://en.wikipedia.org/wiki/Static_web_page
 [3]: https://github.com/
-[4]: https://github.com/vr2262/viktor-roytman.gitlab.io
+[4]: https://github.com/vr2262/www.viktorroytman.com
 [5]: https://pages.github.com/
 [6]: https://github.com/isaacs/github/issues/156
 [7]: https://www.cloudflare.com/
@@ -157,8 +157,8 @@ right, does it?
 [20]: http://www.yes-www.org/
 [21]: https://en.wikipedia.org/wiki/Cryptographic_nonce
 [22]: https://jekyllrb.com/
-[23]: https://github.com/vr2262/viktor-roytman.gitlab.io/blob/master/acme-challenge
-[24]: https://github.com/vr2262/viktor-roytman.gitlab.io/blob/master/acme-challenge-www
+[23]: https://github.com/vr2262/www.viktorroytman.com/blob/master/acme-challenge
+[24]: https://github.com/vr2262/www.viktorroytman.com/blob/master/acme-challenge-www
 [25]: https://certbot.eff.org/docs/using.html#renewing-certificates
 [26]: https://about.gitlab.com/2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/#redirecting
-[27]: https://github.com/vr2262/viktor-roytman.gitlab.io/blob/3aa149a9f44184dd28268662dee8a5371e368189/_layouts/default.html#L11-L20
+[27]: https://github.com/vr2262/www.viktorroytman.com/blob/3aa149a9f44184dd28268662dee8a5371e368189/_layouts/default.html#L11-L20

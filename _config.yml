@@ -5,7 +5,7 @@ description: >
   Viktor's unexplained website.
 permalink: pretty
 url: https://www.viktorroytman.com
-repository: vr2262/viktor-roytman.gitlab.io
+repository: vr2262/www.viktorroytman.com
 
 # Build settings
 markdown: kramdown
