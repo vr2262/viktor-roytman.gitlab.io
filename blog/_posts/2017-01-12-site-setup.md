@@ -65,7 +65,7 @@ instructions:
 1. On the "Pages" section of the GitLab repository settings, add the URL of
 your site. Assuming you have the right DNS records, this will serve your site
 via HTTP.
-2. Install and run Let's Encrypt's [Certbot][19] tool with the following
+2. Install Let's Encrypt's [Certbot][19] tool and run it with the following
 command. Note that I had to specify both the `www` and non-`www` versions of my
 URL.     
                                                                              
