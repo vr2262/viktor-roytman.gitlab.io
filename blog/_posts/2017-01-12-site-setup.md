@@ -67,9 +67,9 @@ your site. Assuming you have the right DNS records, this will serve your site
 via HTTP.
 2. Install Let's Encrypt's [Certbot][19] tool and run it with the following
 command. Note that I had to specify both the `www` and non-`www` versions of my
-URL.     
+URL.
                                                                              
-   ```                                                                       
+   ```
    $ sudo certbot certonly --manual -d www.viktorroytman.com -d viktorroytman.com
    ```
 3. After agreeing to a few things and supplying a contact e-mail address, you
