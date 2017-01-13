@@ -7,6 +7,10 @@ body {
     color: black;
 }
 
+#main_content {
+    padding-top: 0;
+}
+
 header a:hover, header a:focus, header a:active {
     text-decoration: none;
 }
