@@ -15,7 +15,7 @@
         if ((window.location.host === 'viktor-roytman.gitlab.io') ||
 	    (window.location.host === 'viktorroytman.com') ||
 	    ((window.location.host !== '127.0.0.1:4000') && (window.location.protocol != 'https:'))) {
-	  window.location.replace("{{ site.url }}");
+	  window.location.replace("{{ site.url }}" + window.location.pathname);
 	}
     </script>
   </head>
