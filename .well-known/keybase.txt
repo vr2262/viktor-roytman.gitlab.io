@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/vr2262
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.viktorroytman.com
+  * I am vr2262 (https://keybase.io/vr2262) on keybase.
+  * I have a public key with fingerprint 8E58 B319 65B8 C929 93F2  92E0 52F7 73FE A9C4 5CFD
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010110d49c780c4e8c26ff3e7f57a4c8362d3045d5136f00fbd8f6e6c6f3943eca380a",
+            "fingerprint": "8e58b31965b8c92993f292e052f773fea9c45cfd",
+            "host": "keybase.io",
+            "key_id": "52f773fea9c45cfd",
+            "kid": "010110d49c780c4e8c26ff3e7f57a4c8362d3045d5136f00fbd8f6e6c6f3943eca380a",
+            "uid": "18d6369a2015d40b7f658ea221356f19",
+            "username": "vr2262"
+        },
+        "service": {
+            "hostname": "www.viktorroytman.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1484275682,
+    "expire_in": 157680000,
+    "prev": "e0257ee5f1c5f84a449f9bd3646d06991b7998b456d7120966507a2c18e65a1b",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMIwAnicrZJbSBVBGMePlVFapi+HSspY8PJwsp3ZndmdIxSUBAU9SpLSYS8zupzj
+7mnPes6xo5l2MbALBRqGaBfpwQh6iDDpQc0ysBtBt4eE7EJQ0kW6UtCs1FuPzcsw
+3/z/v/l/HzO+dH4gJ+tJF63PBzN5WZOj/Y2B6vSG6YygO2aTEM4IUTq30ZhJE14k
+aplCWBCBCIBoysRQVNGQqWpAzJhEFYYUTTZUCUNTEmVkIiBhJopMN1WGKTYwk4gs
+UUOTVFETQgKz7Drqxl3L9jhWpUjVJUAw0lWDQEIkBgmkIoJMUSRGNWLIyGAmN9Y7
+Cd/Bw+lagpZbDq/xQ2Qu3j/0/zl34xwOqCaWMNGgCJApi7rCMFKpBiGQEGaA+MIE
+dW2tgXJ10oUQQ6ElJPBa0jKoP1a/jz/3qVSqPGlFPcd1nSavQbPLDaeBI+Ku4zmG
+E+OSes+LJ8I+wmuKz3moHvlDi+iWbfJxckeSugnLsYUw4ErDs3w8kFUZKgirMCTQ
+dNxyacTyFUjBqsiX/w5NciQVIVIoRQwYiKmyJsuEEd2UsIxNERMCdIUQVZcRNhUA
+RYIxEhUNGkClGGlAF/z+dtkOZys8p1bHmQmrzta8RpcKLWMjtQsCWTmBhdnz/H8W
+yFmc//f3TbYvCgxPZ75Uv3op62Wrijpq8jqfrunN3tY8fidIumM9rUrt4eKuZT/L
+99esaktNTMR+HBhd0pQ9+z54ed3Klnd9uzefHMstPDFS8nlv3ouCc1VbTncsemAJ
+HzuTrbm9+3bc3VhZNtAddFYHRhfLNZ8GKt3r4PbVB/cuBrc/axx5fmNt+z29ItNf
+tKKsT19vR0aWR+oLv6ajnX2H84fOfigOHm3f6jwqVS5tPkJurT86pZX0VKdLk2+9
+jYFr9w89/NZWcCpEXsfydkTTjy/MXmm42dLmDH7fOdx8ZtPBHyW9B7Jun6kKPh+a
+LBgeGKu4fKzzTeZSeKrqeHpyJlUZGvxVdX7PRPfB38cUP9g=
+=mDeW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vr2262
+
+==================================================================
