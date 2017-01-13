@@ -45,7 +45,7 @@ does have one benefit &mdash; newcomers have a generally-accepted "standard"
 when it comes to software development online, particularly with regard to [free
 and open-source software][13] and [Git][14]. I think of it a bit like
 [Ubuntu][15]; while I can't stomach Ubuntu myself, I can't deny the value in
-having a widely-used examplar as a "beginner" Linux distribution.
+having a widely-used exemplar as a "beginner" Linux distribution.
 
 ### Setting the DNS records
 
