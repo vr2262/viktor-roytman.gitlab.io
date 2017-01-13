@@ -1,3 +1,11 @@
-# This is a header
+---
+title: ""
+---
 
-This is some content.
+## [Blog &raquo;](/blog/)
+
+### Most recent post: [{{ site.categories.blog.first.title }}]({{ site.categories.blog.first.url }})
+
+{{ site.categories.blog.first.date | date_to_string }}
+
+{{ site.categories.blog.first.excerpt }}

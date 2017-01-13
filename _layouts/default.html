@@ -25,13 +25,17 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-	  <a href="{{ site.url }}"><h1 id="project_title">{{ site.title }}</h1></a>
+	  <a href="/"><h1 id="project_title">{{ site.title }}</h1></a>
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+	{% if page.date %}
+	<p>{{ page.date | date_to_string }}</p>
+	{% endif %}
         {{ content }}
       </section>
     </div>
