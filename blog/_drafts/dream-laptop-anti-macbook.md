@@ -12,15 +12,17 @@ the MacBook.
 
 ### Terrible secret
 
-I don't like the design of the MacBook at all. I think Apple has made the wrong
-choice in almost every aspect. What's worse, Apple's premium status and absurd
-financial success have led [almost][sam] every [other][hpc] laptop
-[manufacturer][asu] to copy Apple as much as possible, making it
-near-impossible to find a truly sensible laptop.
+I don't like the design of the MacBook line at all. I think Apple has made the
+wrong choice in almost every aspect. What's worse, Apple's premium status and
+absurd financial success have led [almost][sam] every [other][hpc] laptop
+[manufacturer][asu] to copy the MacBook as much as possible, so I'll probably
+never be able to find a truly sensible laptop.
 
 Let me be clear: I know that this sentiment is practically blasphemous among
 hip, trendy [software developers][dev] and hip, trendy [college students][col].
 But I feel that there must be a voice of dissent.
+
+### Form should follow function
 
 What I want in a laptop is for [form to follow function][fun]. A laptop is a
 computer, after all, albeit one in which most aspects (power, configurability,
@@ -31,8 +33,11 @@ desktop with similar specs... or how much more you could get for the same
 amount of money.
 
 Given that the value of a laptop is its portability, the single most important
-factor is weight. Hang on, I already know what you're thinking: "But MacBooks
-are light!" Yes and no.
+factor is weight (for the price). Hang on, I already know what you're thinking:
+"But MacBooks are light!" Yes and no. Yes, they are often the lightest (or
+near-lightest) laptops in their "market segment." But you pay a very hefty
+premium for that. In addition, it's clear that Apple is trying to optimize for
+[thinness][thn] (in all their devices... bye bye headphone jack).
 
 TODO... 
 
@@ -70,3 +75,4 @@ https://www.ifixit.com/Teardown/Retina+MacBook+2015+Teardown/39841#s89870
 [col]: https://www.google.com/search#tbm=isch&q=college+lecture+hall+laptops
 [fun]: https://en.wikipedia.org/wiki/Form_follows_function
 [pcp]: https://pcpartpicker.com/
+[thn]: https://daringfireball.net/linked/2016/10/31/intel-mbp-ram
