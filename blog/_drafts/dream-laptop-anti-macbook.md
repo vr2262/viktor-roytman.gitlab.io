@@ -5,9 +5,10 @@ issue_id: 2
 
 The [brouhaha][bru] over [Apple's][aap] latest [MacBook Pro][mbp] seems to be
 louder and more sustained than the typical backlash to a new Apple product.
-The common theme is a sense of disappointment that the new top-of-the-line
-"developer" machine does not meet expectations. With that in mind, I figure
-it's the perfect time to share my terrible secret: I never liked the MacBook.
+The common theme is a sense of disappointment that the long-awaited new
+top-of-the-line "developer" machine does not meet expectations. With that in
+mind, I figure it's the perfect time to share my terrible secret: I never liked
+the MacBook.
 
 ### Terrible secret
 
@@ -20,6 +21,20 @@ near-impossible to find a truly sensible laptop.
 Let me be clear: I know that this sentiment is practically blasphemous among
 hip, trendy [software developers][dev] and hip, trendy [college students][col].
 But I feel that there must be a voice of dissent.
+
+What I want in a laptop is for [form to follow function][fun]. A laptop is a
+computer, after all, albeit one in which most aspects (power, configurability,
+price, etc.) suffer in exchange for portability. If you ever want to feel bad
+about how much money you spent on a laptop, head on over to
+[https://pcpartpicker.com/][pcp] and see how much less you would pay for a
+desktop with similar specs... or how much more you could get for the same
+amount of money.
+
+Given that the value of a laptop is its portability, the single most important
+factor is weight. Hang on, I already know what you're thinking: "But MacBooks
+are light!" Yes and no.
+
+TODO... 
 
 ### Wrong materials
 
@@ -39,6 +54,8 @@ https://en.wikipedia.org/wiki/Polycarbonate
 
 ### Backlit keyboard
 
+https://www.ifixit.com/Teardown/Retina+MacBook+2015+Teardown/39841#s89870
+
 ### Thin vs. light
 
 ### No ethernet port
@@ -51,3 +68,5 @@ https://en.wikipedia.org/wiki/Polycarbonate
 [asu]: http://store.asus.com/us/category/A18489
 [dev]: https://www.google.com/search#tbm=isch&q=startup+laptop
 [col]: https://www.google.com/search#tbm=isch&q=college+lecture+hall+laptops
+[fun]: https://en.wikipedia.org/wiki/Form_follows_function
+[pcp]: https://pcpartpicker.com/
