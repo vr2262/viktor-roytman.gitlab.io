@@ -19,6 +19,37 @@
 	  window.location.replace("{{ site.url }}" + window.location.pathname);
 	}
     </script>
+    <script>
+    // From http://blog.parkermoore.de/2014/08/01/header-anchor-links-in-vanilla-javascript-for-github-pages-and-jekyll/
+    var anchorForId = function (id) {
+        var anchor = document.createElement("a");
+        anchor.className = "header-link";
+        anchor.href      = "#" + id;
+        anchor.innerHTML = "&para;";
+        return anchor;
+    };
+
+    var linkifyAnchors = function (level, containingElement) {
+        var headers = containingElement.getElementsByTagName("h" + level);
+        for (var h = 0; h < headers.length; h++) {
+            var header = headers[h];
+
+            if (typeof header.id !== "undefined" && header.id !== "") {
+	        header.innerHTML += ' ';
+                header.appendChild(anchorForId(header.id));
+            }
+        }
+    };
+
+    document.onreadystatechange = function () {
+        if (this.readyState === "complete") {
+	    var contentBlock = document.getElementById('main_content');
+            for (var level = 3; level <= 6; level++) {
+                linkifyAnchors(level, contentBlock);
+            }
+        }
+    };
+    </script>
   </head>
 
   <body>
