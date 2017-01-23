@@ -169,9 +169,9 @@ raw_jwks = (await http_client.fetch(discovery['jwks_uri'])).body
 
 ### Wrapping up
 
-Down the line, there will be client-side libraries (or at least, other demo
-implementations) for various languages. Until then, you'll need to do some of
-the heavy lifting yourself.
+Down the line, there will be client-side Portier libraries (or, at least, other
+demo implementations) for various languages. Until then, you'll need to do some
+of the heavy lifting yourself. I think it's worth it, and I hope you will, too.
 
 [mzp]: https://en.wikipedia.org/wiki/Mozilla_Persona
 [det]: https://developer.mozilla.org/en-US/Persona/Why_Persona
