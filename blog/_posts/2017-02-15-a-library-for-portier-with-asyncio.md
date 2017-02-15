@@ -119,7 +119,7 @@ directly to the requested page.
 ### Wrapping up
 
 This library should make things a little bit easier for anyone using Portier
-and asyncio. Please let me know if you run into any [issues]!
+and asyncio. Please let me know if you run into any [issues][iss]!
 
 [pre]: /blog/2017/01/23/using-portier-with-pythons-asyncio
 [ful]: https://en.wikipedia.org/wiki/Self-fulfilling_prophecy
