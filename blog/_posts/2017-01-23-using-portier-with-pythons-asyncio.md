@@ -3,6 +3,17 @@ title: Using Portier with Python's asyncio
 issue_id: 3
 ---
 
+## Updates
+
+### The asyncio-portier library
+
+15 Feb 2017
+
+I've published the [asyncio-portier][asp] Python library. Read the announcement
+post [here][ann].
+
+## Original Post
+
 [Mozilla Persona][mzp] was an authentication solution that sought to preserve
 user privacy while making life easy for developers (as explained [here][det]).
 You may have noticed the past tense there &mdash; Persona has gone away. A new
@@ -197,3 +208,5 @@ of the heavy lifting yourself. I think it's worth it, and I hope you will, too.
 [aih]: https://aiohttp.readthedocs.io/
 [cex]: https://aiohttp.readthedocs.io/en/stable/#getting-started
 [ahc]: http://www.tornadoweb.org/en/stable/httpclient.html#tornado.httpclient.AsyncHTTPClient
+[asp]: https://pypi.python.org/pypi/asyncio-portier
+[ann]: /blog/2017/02/15/a-library-for-portier-with-asyncio
