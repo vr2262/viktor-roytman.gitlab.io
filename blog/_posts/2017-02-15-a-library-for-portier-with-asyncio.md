@@ -36,16 +36,14 @@ Assuming that
 
 {% highlight python %}
 from datetime import timedelta
-from urllib.parse import parse_qs, urlencode, urlparse
+from urllib.parse import urlencode
 from uuid import uuid4
 import tornado.web
 
 class LoginHandler(tornado.web.RequestHandler):
     def post(self):
         nonce = uuid4().hex
-        referer_query = urlparse(self.request.headers['Referer']).query
-        query_next = parse_qs(referer_query).get('next')
-        next_page = '/' if query_next is None else query_next[0]
+        next_page = self.get_argument('next', '/')
         expiration = timedelta(minutes=15)
         cache.set('portier:nonce:{}'.format(nonce), next_page, expiration)
 
